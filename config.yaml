@@ -1,0 +1,7 @@
+default:
+  models_path: "/app/models"
+  app_data_path: "/app/data"
+  predictions_table: "predictions"
+  wards: "'Anaesthetic Pre-Op Assessment', 'EEG Department', 'Lung Function', 'EAGLE WARD', 'KINGFISHER WARD', 'Kingfisher', 'Eagle Haemodialysis', 'Eagle Acute','Turtle (Radiology)', 'OTTER WARD', 'TURTLE WARD', 'X-Ray (Radiology)', 'CT (Radiology)', 'MRI (Radiology)', 'INTERVENTIONAL RADIOLOGY'"
+  daysToRetrieve: 2
+  sourceLocation: "[FFT_NLP].[RL6_PRODUCTION]"
