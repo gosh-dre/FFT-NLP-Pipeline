@@ -1,0 +1,12 @@
+keyword_dictionary:
+  XXX:
+# Names to remove. Use for any names that aren't captured.
+allow_list:
+# any words that shouldn't be removed
+  - " 10/10 "
+  - "dr"
+  - "dr."
+  - "drs"
+  - "drs."
+  - "nurse"
+  - "nurses"

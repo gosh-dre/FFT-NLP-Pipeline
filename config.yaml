@@ -1,0 +1,7 @@
+default:
+  models_path: "models"
+  app_data_path: "data"
+  predictions_table: "predictions"
+  wards: ""
+  daysToRetrieve: 4
+  sourceLocation: "[FFT_NLP].[RL6_PRODUCTION]"

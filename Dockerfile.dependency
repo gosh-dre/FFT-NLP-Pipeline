@@ -1,0 +1,18 @@
+FROM python:3.9.16
+
+RUN apt-get update
+RUN apt-get install -y python3-dev \
+                        gcc \
+                        g++ \
+                        libc-dev \
+                        libffi-dev \
+                        build-essential
+
+RUN python -m venv /opt/venv
+ENV PATH="/opt/venv/bin:$PATH"
+
+COPY requirements.txt requirements.txt
+RUN pip install wheel
+RUN pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cpu
+RUN pip install -r requirements.txt
+RUN pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.4.1/en_core_web_lg-3.4.1.tar.gz
