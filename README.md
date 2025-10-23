@@ -2,7 +2,7 @@
   <img src="man/figures/logo.png" alt="logo" width="200"/>
 </div>
 
-# Friends and Family Test (FFT) NLP Pipeline
+# Themiator
 ---
 
 ## 🚀 Introduction
