@@ -13,7 +13,7 @@ Implementation of an NLP workflow that pre-processes patient/parent feedback of 
 ### Finetuning Workflow
 
 
-For fine-tuning SetFit based pipeline components, please refer to [Setfit's documentation on Huggingface](https://huggingface.co/docs/setfit/how_to/classification_heads) and for fine-tuning GLiNER based pipeline components for your own use case, please refer to [GLiNER's fine-tuning notebook](https://github.com/urchade/GLiNER/blob/main/examples/finetune.ipynb).
+For fine-tuning SetFit based pipeline components, please refer to [Setfit's documentation on Huggingface](https://huggingface.co/docs/setfit/how_to/classification_heads).
 
 
 The base models used for Setfit fine-tuning are:
